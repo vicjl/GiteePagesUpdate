@@ -6,8 +6,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-- name: Gitee Pages Action
-  uses: yanglbme/gitee-pages-action@v1.2.2
+      - name: Gitee Pages Action
+        uses: yanglbme/gitee-pages-action@v1.2.2
 
         with:
           # 注意替换为你的 Gitee 用户名
